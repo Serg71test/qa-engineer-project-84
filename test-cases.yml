@@ -119,9 +119,9 @@
     
   test-data: |
 
-   steps:
+  steps:
     - Нажимаем кнопку «Корзина»
-   expected-result: |
+  expected-result: |
     Открыта страница Корзины
 
 - summary: |
@@ -132,7 +132,7 @@
     Открыта страница Корзины
   test-data: |
 
-   steps:
+  steps:
     - Нажимаем кнопку «Магазин»
-   expected-result: |
+  expected-result: |
     Открыта главная страница магазина
