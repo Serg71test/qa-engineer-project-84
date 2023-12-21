@@ -5,7 +5,7 @@
     Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
     ОС Windows 10 Pro x64
   steps-to-reproduce: |
-    1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
+    1. Зайти на главную страницу магазина https://hexlet-products-store.vercel.app/
     2. Убрать галку в чекбоксе "В наличии"
   expected-result: |
     На странице магазина дополнительно появятся товары, которых нет в наличии
@@ -18,12 +18,25 @@
     Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
     ОС Windows 10 Pro x64
   steps-to-reproduce: |
-    1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
+    1. Зайти на главную страницу магазина https://hexlet-products-store.vercel.app/
     2. Нажать кнопку "Категория"
   expected-result: |
     На странице магазина появяляется окно с категориями товаров. Есть возможность отключить поиск по категории товаров.
   actual-result: |
     Нет возможности отключить поиск по категории товаров.
+
+- summary: |
+    Проверка поиска по ключевому слову выполняется только по выбранной странице, а не по всему магазину
+  environment: |
+    Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
+    ОС Windows 10 Pro x64
+  steps-to-reproduce: |
+    1. Зайти на главную страницу магазина https://hexlet-products-store.vercel.app/
+    2. В поле "Поиск" ввести ключевое слово.
+  expected-result: |
+    На странице магазина отображаются все товары магазина, в карточке которых встречается это слово.
+  actual-result: |
+    Выводятся только товары с текущей страницы, а не из всего магазина.
     
 - summary: |
     При смене языка сайта на русский информация в карточках товаров остается на английском языке.
@@ -31,7 +44,7 @@
     Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
     ОС Windows 10 Pro x64
   steps-to-reproduce: |
-    1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
+    1. Зайти на главную страницу магазина https://hexlet-products-store.vercel.app/
     2. Нажать кнопку "Language"
     3. Выбрать русский язык
   expected-result: |
@@ -45,7 +58,7 @@
     Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
     ОС Windows 10 Pro x64
   steps-to-reproduce: |
-    1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
+    1. Зайти на главную страницу магазина https://hexlet-products-store.vercel.app/
     2. В поле цена От ввести -1
     3. В поле цена До ввести -6
   expected-result: |
@@ -59,7 +72,7 @@
     Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
     ОС Windows 10 Pro x64
   steps-to-reproduce: |
-    1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
+    1. Зайти на главную страницу магазина https://hexlet-products-store.vercel.app/
     2. Проверить число, установленное по умолчанию в поле "цена До"
   expected-result: |
     Поле "цена До" = 0
@@ -72,7 +85,7 @@
     Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
     ОС Windows 10 Pro x64
   steps-to-reproduce: |
-    1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
+    1. Зайти на главную страницу магазина https://hexlet-products-store.vercel.app/
     2. Добавить товар в корзину
     3. Перейти в корзину.
     4. Нажать кнопку "Оформить заказ"
