@@ -7,10 +7,6 @@ test-cases:
 - summary: |
     Проверка совместимости с последними версиями браузеров
   status: pass
-  
-- summary: |
-    Проверка поиска товара по названию
-  status: pass
 
 - summary: |
     Проверка поиска товара по производителю
@@ -18,7 +14,7 @@ test-cases:
 
 - summary: |
     Проверка чекбокса "В наличии"
-  status: fail
+  status: pass
     
 - summary: |
     Проверка кнопки «Категория»
@@ -26,7 +22,7 @@ test-cases:
        
 - summary: |
     Проверка поиска товара по категории
-  status: fail
+  status: pass
     
 - summary: |
     Проверка кнопки «Language»
@@ -42,7 +38,7 @@ test-cases:
 
 - summary: |
     Проверка кнопки «Магазин» 
-  status: pass
+  status: fail
     
 - summary: |
     Проверка кнопки «Следующая»
