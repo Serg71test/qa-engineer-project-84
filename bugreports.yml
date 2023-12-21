@@ -7,7 +7,7 @@
   steps-to-reproduce: |
     1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
     2. Убрать галку в чекбоксе "В наличии"
-   expected-result: |
+  expected-result: |
     На странице магазина дополнительно появятся товары, которых нет в наличии
   actual-result: |
     Открывается пустая страница товаров "Ничего не найдено!"
@@ -20,7 +20,7 @@
   steps-to-reproduce: |
     1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
     2. Нажать кнопку "Категория"
-   expected-result: |
+  expected-result: |
     На странице магазина появяляется окно с категориями товаров. Есть чекбокс для выбора категорий товаров.
   actual-result: |
     Нет чекбокса для выбора категорий товаров.
@@ -34,7 +34,21 @@
     1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
     2. Нажать кнопку "Language"
     3. Выбрать русский язык
-   expected-result: |
+  expected-result: |
     Язык страницы магазина меняется на русский.
   actual-result: |
     Информация в карточках товаров остается на английском языке.
+
+- summary: |
+    Нет контроля ввода отрицательных чисел.
+  environment: |
+    Google Chrome Версия 120.0.6099.130 (Официальная сборка), (32 бит)
+    ОС Windows 10 Pro x64
+  steps-to-reproduce: |
+    1. Зайти на главную страницу магазина https://https://hexlet-products-store.vercel.app/
+    2. В поле цена От ввести -1
+    3. В поле цена До ввести -6
+  expected-result: |
+    Ввод отрицательных чисел невозможен.
+  actual-result: |
+    Возможен ввод отрицательных чисел.
