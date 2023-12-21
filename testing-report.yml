@@ -45,7 +45,7 @@
 
 - summary: |
     Проверка кнопки «Магазин» 
-  status: pass
+  status: fail
     
 - summary: |
     Проверка кнопки «Следующая»
