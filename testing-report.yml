@@ -41,7 +41,7 @@
 
 - summary: |
     Проверка кнопки «Корзина»
- status: pass
+ status: fail
 
 - summary: |
     Проверка кнопки «Магазин» 
@@ -93,7 +93,7 @@
     
 - summary: |
     Проверка кнопки «Оформить заказ»
- status: pass
+ status: fail
         
 - summary: |
     Проверка кнопки «Закрыть» 
