@@ -26,6 +26,10 @@
 - summary: |
     Проверка поиска товара по категории
   status: fail
+
+- summary: |
+    Проверка поиска по ключевому слову
+  status: fail
     
 - summary: |
     Проверка кнопки «Language»
