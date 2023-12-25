@@ -89,7 +89,7 @@
     
 - summary: |
     Проверка кнопки «Оформить заказ»
- status: fail
+  status: fail
         
 - summary: |
     Проверка кнопки «Закрыть» 
