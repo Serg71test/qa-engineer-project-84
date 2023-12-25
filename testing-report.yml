@@ -37,7 +37,7 @@
 
 - summary: |
     Проверка кнопки «Корзина»
- status: fail
+  status: fail
 
 - summary: |
     Проверка кнопки «Магазин» 
