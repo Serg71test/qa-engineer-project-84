@@ -9,7 +9,7 @@ test-cases:
   status: pass
 
 - summary: |
-    Проверка поиска товара по производителю
+    Проверка поиска товара по бренду
   status: pass
 
 - summary: |
@@ -17,7 +17,7 @@ test-cases:
   status: pass
     
 - summary: |
-    Проверка кнопки «Категория»
+    Проверка меню Категорий
   status: pass
        
 - summary: |
@@ -25,7 +25,7 @@ test-cases:
   status: pass
     
 - summary: |
-    Проверка кнопки «Language»
+    Проверка меню Languages
   status: pass
 
 - summary: |
@@ -33,11 +33,11 @@ test-cases:
   status: fail
 
 - summary: |
-    Проверка кнопки «Корзина»
+    Проверка открытия корзины
   status: pass
 
 - summary: |
-    Проверка кнопки «Магазин» 
+    Проверка редиректа на главную при нажатии на кнопку «Shop» 
   status: fail
     
 - summary: |
@@ -65,7 +65,7 @@ test-cases:
   status: pass
   
 - summary: |
-    Проверка открытия страницы с описанием товара
+    Проверка открытия карточки товара
   status: pass
 
 - summary: |
@@ -73,11 +73,11 @@ test-cases:
   status: pass
 
 - summary: |
-    Проверка кнопки «Очистить корзину»
+    Проверка очистки корзины
   status: pass
 
 - summary: |
-    Проверка кнопки «Удалить»
+    Проверка удаления товара из корзины
   status: pass
     
 - summary: |
@@ -85,7 +85,7 @@ test-cases:
   status: pass
     
 - summary: |
-    Проверка кнопки «Оформить заказ»
+    Проверка функции Оформить заказ
   status: pass
         
 - summary: |
