@@ -4,8 +4,8 @@
   requirement: |
   test-data: |
   steps:
-    - Открыть сайт https://hexlet-products-store.vercel.app
-    - Открыть DevTools
+    - Открыть сайт «https://hexlet-products-store.vercel.app»
+    - Открыть «DevTools»
     - Нажать кнопку «Toggle device toolbar»
     - Выбрать необходимое мобильное устройство
   expected-result: |
@@ -19,7 +19,7 @@
     Открыты браузеры Google Chrom, Safari, Firefox последних версий
   test-data: |
   steps:
-    - Открыть сайт https://hexlet-products-store.vercel.app/ в каждом браузере
+    - Открыть сайт «https://hexlet-products-store.vercel.app» в каждом браузере
     - Открыть карточку товара
     - Добавить товар в корзину
     - Открыть корзину
