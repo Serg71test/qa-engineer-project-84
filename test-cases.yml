@@ -8,7 +8,7 @@
   test-data: |
     no data
   steps: |
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт " https://hexlet-products-store.vercel.app " 
     Открыть DevTools
     Нажать кнопку Toggle device toolbar
     Выбрать необходимое мобильное устройство
@@ -300,7 +300,7 @@
   test-data: |
     no data
   steps: |
-    Нажать кнопку "Закрытие окна"
+    Нажать кнопку Закрытие окна
   expected-result: |
     Закрылось окно "Заказ успешно оформлен"
 
